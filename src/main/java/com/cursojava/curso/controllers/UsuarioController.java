@@ -19,7 +19,7 @@ public class UsuarioController {
 
         }
 
-    @RequestMapping(value = "usuario")
+    @RequestMapping(value = "usuario ")
     public Usuario editar() {
         Usuario usuario= new Usuario();
         usuario.setNombre("Lucas");
